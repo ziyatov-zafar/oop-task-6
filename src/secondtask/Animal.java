@@ -1,13 +1,15 @@
 package secondtask;
 
-public abstract class Animal {
-    protected String name;
+public  class Animal {
+    public String name;
 
     public Animal(String name) {
         this.name = name;
     }
 
-    public abstract void sound();
+    public void sound() {
+
+    }
 
     public String getName() {
         return name;
